@@ -1,0 +1,28 @@
+      {% extends 'layout.html' %} 
+
+      {% block title %}Agenda{% endblock %}
+
+      {% block content %}           
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th>#</th>
+                    <th>Nome</th>
+                    <th>Email</th>
+                    <th>Telefone</th>
+                  </tr>
+                </thead>
+                <tbody>
+                <!--{% for registro in registro %}
+                  <tr>
+                    <td></td>
+                    <td>{{ registro.get('nome') }}</td>
+                    <td>{{ registro.get('telefone') }}</td>
+                    <td>{{ registro.get('email') }}</td>
+                    <td><a href="/agendas/{{ agenda._id }}/edit/">Editar</a></td>
+                    <td><a href="/agendas/{{ agenda._id }}/delete/">Excluir</a></td>
+                  </tr>
+                {% endfor %}-->
+                </tbody>
+              </table>
+      {% endblock %}

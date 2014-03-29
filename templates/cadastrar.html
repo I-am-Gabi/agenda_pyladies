@@ -1,0 +1,23 @@
+      {% extends 'layout.html' %} 
+
+      {% block title %}Novo Cadastro{% endblock %}
+ 
+      {% block content %}
+          <form role="form" action="/agendas/cadastrar/" method="POST"> 
+            <div class="field">
+              <!--{{ form.nome.label }}
+              {{ form.nome }}-->
+            </div>
+
+            <div class="field">
+              <!--{{ form.telefone.label }}
+              {{ form.telefone }}-->
+            </div>
+
+            <div class="field">
+              <!--{{ form.email.label }}
+              {{ form.email }}-->
+            </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+          </form>
+      {% endblock %}

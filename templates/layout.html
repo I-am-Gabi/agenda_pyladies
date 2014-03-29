@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Agenda - PyLadies</title>    
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../static/bootstrap.min.css" />
+    <link rel="stylesheet" href="../static/bootstrap.css" />
+    <link href="http://getbootstrap.com/dist/css/bootstrap-theme.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  </head>
+
+  <body>
+    <div class="container">
+    <br/>
+      <div class="row">
+        <div class="col-md-10">
+          <ul class="nav nav-tabs">
+            <li class=""><a href="/">Agenda</a></li>
+            <li class=""><a href="/cadastrar/">Cadastrar</a></li> 
+          </ul>
+        </div>
+      </div>
+    <br/><br/>
+
+    {% block content %}{% endblock %}
+
+    </div>
+  </body>
+</html>

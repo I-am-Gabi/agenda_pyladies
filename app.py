@@ -18,7 +18,11 @@ def cadastrar():
 def editar():
     return render_template("editar.html") 
 
+@app.route('/<int:registro_id>/delete/', methods=['POST'])
+def editar():
+    return render_template("listar.html") 
+
 if __name__ == '__main__':
-    app.run()
+    app.run(debug=True)
 
   

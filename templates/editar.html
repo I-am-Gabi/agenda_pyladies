@@ -1,7 +1,7 @@
-      {% extends 'layout.html' %}  
+{% extends 'layout.html' %}  
  
       {% block content %}
-          <form action="/cadastrar/" method="POST"> 
+          <form action="/{{ registro._id }}/edit/" method="POST"> 
             <div class="field">
               <!--{{ form.nome.label }}
               {{ form.nome }}-->

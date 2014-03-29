@@ -6,7 +6,7 @@ from forms import AForm
 
 app = Flask(__name__)
 
-@app.route('/')
+@app.route("/")
 def listar():
     return render_template("listar.html")
 
